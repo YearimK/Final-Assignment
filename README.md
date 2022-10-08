@@ -1,6 +1,5 @@
 # Final-Assignment
-Final Individual Assignment
-# This is my final project
+This is my final individual assignment
 
 ### _For the final project, I'll be making `art/design marketplace and networking platform` for_
 
@@ -26,6 +25,5 @@ Final Individual Assignment
     As a collector, I would like to discover and explore new design projects, artworks and exhibition venues worldwide, buy products or make collections and stay up-to-date with my favourite designers/artists.
 ```
 
-[link to figma file]("https://www.figma.com/file/7B7BaBZGglcnGT8BdpQg36/Untitled?node-id=0%3A1")
-
+[link to figma file] https://www.figma.com/file/7B7BaBZGglcnGT8BdpQg36/Untitled?node-id=0%3A1
 
