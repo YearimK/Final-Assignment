@@ -11,7 +11,7 @@ This is my final individual assignment
 
 1. The organization admin:  A team of curators, developers, publishers, marketing specialists and coordinators and UX/UI designers.
 
-    As an admin, our team would like to offer a platform for artists, designers, curators and collectors to connect with one another in one space so that they can manage collection easier and build a community to exhibit and support quality artworks and design products.
+    As an admin, our team would like to offer a platform for artists, designers, curators and collectors to connect with one another in one space so that they can manage collection easier and build a community to exhibit and support quality artworks and products.
 
 
 2. Designers/Artists
