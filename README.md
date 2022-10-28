@@ -11,7 +11,7 @@
 
 1. The organization admin:  A team of curators, developers, publishers, marketing specialists and coordinators and UX/UI designers.
 
-    As an admin, our team wants to offer a platform where artists, designers, curators and collectors can connect so that it makes selling and buying artworks and products easier and manage collaborations for them.
+    As an admin, our team wants to offer a platform where artists, designers, curators and collectors can connect so that the process of selling, buying and collaborating can be easier.
 
 2. Designers/Artists
 
