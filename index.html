@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Creativ8</title>
+</head>
+
+<body>
+
+
+<!--header-->
+    <header>
+
+        <div class="navigation">
+            <div class="logo"><a href="creativ8/index.html"><img src="assets/logo.jpg" alt="logo" style="text-align: left" height="100">
+            </a></div>
+
+            <a href="#" class="toggle-button">
+                <ion-icon name="menu-outline"></ion-icon></a>
+            <a href="#" class=" account-button">
+                <ion-icon name="person-outline"></ion-icon></a>
+        
+
+            <ul class="navbar-menu">
+                    <li><button class="nav-btn">MARKETPLACE</button></li>
+                    <li><button class="nav-btn">EDITORIAL</button></li>
+                    <li><button class="nav-btn">NETWORK</button></li>
+                    <li><button class="nav-btn">FAQ</button></li>
+                    <li><button class="nav-btn" style="border:1px solid black; padding: 20px 20px">SIGN IN / SIGN UP</button></li>
+        </div>
+
+    </header>
+
+
+<!--image slider DISCOVER-->
+    <div id="main-discover">
+        <a href="#"></a>
+            <button class="discover-btn"><strong>DISCOVER</strong></button>
+    </div>
+
+
+        <!--image slider-->
+    <section class=main-first>
+
+        <div class="slider">
+            <div class="slides">
+
+
+                <!--radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+
+                <!--slide images-->
+                <div class="slide-first">
+
+                    <section class=slide-content>
+                        <div class="img-col">
+                            <a href="#"></a>
+                                <img src="assets/dune.jpg" width="200px"; height="200px">
+                        </div>
+                    
+                        <div class="text-col">
+                            <a href="#"></a>
+                                <h1>'Dune' by Ela Solesa</h1>
+                                    <p>‘Dune’, a multimedia installation by Ela Solesa exploring<br>themes of borders, ecology and space through technological innovation made in collaboration with
+                                    </p>
+                            <a href="#"></a>
+                                <img class="collab" src="assets/collab1.png" width="50px"; height="50px">
+                            <a href="#"></a>
+                                <img class="collab" src="assets/collab2.png" width="50px"; height="50px">
+                         </div>
+                    </section>
+
+                </div>
+           
+    
+                <div class="slide">
+
+                    <section class=slide-content>
+                        <div class="img-col">
+                            <a href="#"></a>
+                                <img src="assets/river.jpg" width="200px"; height="200px">
+                        </div>
+                    
+                        <div class="text-col">
+                            <a href="#"></a>
+                                <h1>'River' by John Tutgual</h1>
+                                <p>'River', one of the 3D art series by John Tutgual which opens the multisensory entrance into a dimension in which the boundaries between the analogue and the virtual become blurred.</p>      
+                        </div>
+                    </section>
+
+                </div>
+
+
+                <div class="slide">
+
+                    <section class=slide-content>
+                        <div class="img-col">
+                            <a href="#"></a>
+                                <img src="assets/reed.jpg" width="200px"; height="200px">
+                        </div>
+                    
+                        <div class="text-col">
+                            <a href="#"></a>
+                                <h1>'Reed' by Hana Yun</h1>
+                                <p>A stunning 3D still life from Hana Yun, who has been featured on Mindsparkle Mag.<br>The scene was made in collaboration with</p>
+                            <a href="#"></a>
+                                <img class="collab" src="assets/collab3.png" width="50px"; height="50px">
+                        </div>
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+        <!--auto navigation-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+        <!--manual navigation-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+     
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+
+
+<!--product card MARKETPLACE-->
+        <a href="#"></a>
+            <button class="marketplace-btn"><strong>MARKETPLACE</strong></button>
+
+    <section class="product">
+        <h2 class="product-category">Trending</h2>
+            <button class="pre-btn"> <img src="assets/arrow.png" alt="pre" width="60px"></button>
+            <button class="nxt-btn"> <img src="assets/arrow.png" alt="next" width="60px"></button>
+        
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <a href="#"></a>
+                            <img class="product-img" src="assets/melting.jpg"; width="300px" height="400px" class="product-thumb" alt="Melting">
+                        <a href="#"></a>
+                            <button class="wishlist-btn">Add to Wishlist</button>
+                        <a href="#"></a>
+                            <button id="follow-btn-first">FOLLOW</button>
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Melting</h3>
+                        <div class="profile">
+                            <a href="#"></a>
+                                <img class="profile-photo" src="assets/Olga_Gyurian.jpg"; width="40px" height="40px">
+                            <a href="#"></a>
+                                <span class="designer">Olga Gyurian</span>
+                        </div>
+                        <p class="price">Price</p>
+                        <span class="dollar">$350</span>
+                        <span class="eth">ETH 3.0</span>
+                        <p class="edition">EDITION 1 of 10</p>
+                    </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <a href="#"></a>
+                            <img class="product-img" src="assets/droplet.jpg"; width="300px" height="400px" class="product-thumb" alt="Droplet">
+                        <a href="#"></a>
+                            <button class="wishlist-btn">Add to Wishlist</button>
+                        <a href="#"></a>
+                            <button id="follow-btn-second">FOLLOW</button>
+                    </div>
+        
+                    <div class="product-info">
+                        <h3 class="product-title">Droplet</h3>
+                        <div class="profile">
+                            <a href="#"></a>
+                                <img class="profile-photo" src="assets/Solen_Feyssa.jpg"; width="40px" height="40px">
+                            <a href="#"></a>
+                                <span class="designer">Solen Feyssa</span>
+                        </div>
+                        <p class="price">Price</p>
+                        <span class="dollar">$136</span>
+                        <span class="eth">ETH 0.1</span>
+                        <p class="edition">EDITION 1 of 1</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <a href="#"></a>
+                            <img class="product-img" src="assets/lava.jpg"; width="300px" height="400px" class="product-thumb" alt="Lava">
+                        <a href="#"></a>
+                            <button class="wishlist-btn">Add to Wishlist</button>
+                        <a href="#"></a>
+                            <button id="follow-btn-third">FOLLOW</button>
+                    </div>
+                
+                    <div class="product-info">
+                        <h3 class="product-title">Lava</h3>
+                        <div class="profile">
+                            <a href="#"></a>
+                                <img class="profile-photo" src="assets/Oya_Ogunsein.jpg"; width="40px" height="40px">
+                            <a href="#"></a>
+                                <span class="designer">Oya Ogunsein</span>
+                        </div>
+                        <p class="price">Price</p>
+                        <span class="dollar">$136</span>
+                        <span class="eth">ETH 0.1</span>
+                        <p class="edition">EDITION 1 of 5</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <a href="#"></a>
+                            <img class="product-img" src="assets/lava.jpg"; width="300px" height="400px" class="product-thumb" alt="Lava">
+                        <a href="#"></a>
+                            <button class="wishlist-btn">Add to Wishlist</button>
+                        <a href="#"></a>
+                            <button id="follow-btn-third">FOLLOW</button>
+                </div>
+            
+                <div class="product-info">
+                    <h3 class="product-title">Lava</h3>
+                    <div class="profile">
+                        <a href="#"></a>
+                            <img class="profile-photo" src="assets/Oya_Ogunsein.jpg"; width="40px" height="40px">
+                        <a href="#"></a>
+                            <span class="designer">Oya Ogunsein</span>
+                    </div>
+                    <p class="price">Price</p>
+                    <span class="dollar">$136</span>
+                    <span class="eth">ETH 0.1</span>
+                    <p class="edition">EDITION 1 of 5</p>
+
+                        <a href="#"></a>
+                            <button id="buy-btn-first">BUY</button>
+                        <a href="#"></a>
+                            <button id="buy-btn-second">BUY</button>
+                        <a href="#"></a>
+                            <button id="buy-btn-third">BUY</button>
+                            
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+<!--image slider EDITORIAL-->
+    <div id="main-editorial">
+        <a href="#"></a>
+            <button class="editorial-btn"><strong>EDITORIAL</strong></button>
+            <p class="editorial-txt" style="font-family: 'Catamaran', sans-serif; font-size: 12px; margin-left: 30px; color:rgb(76, 73, 73)">WEEKLY HIGHLIGHTS</p>
+    </div>
+
+        <div class=card-content>
+            <div class="img-editorial">
+                <a href="#"></a>
+                    <img src="assets/sofa.jpg" alt="sofa" width="300px" height="350px">
+            </div>
+            <div class="txt-editorial">
+                <div class="profile">
+                    <a href="#"></a>
+                        <img class="profile-photo" src="assets/Sienna_Borba.jpg"; width="40px" height="40px">
+                    <a href="#"></a>
+                        <span class="designer">Sienna Borba</span>
+                    <a href="#"></a>
+                        <button id="follow-btn-editorial">FOLLOW</button>
+                    <p class="active-status">4hours ago</p>
+                </div>
+                <a href="#"></a>
+                    <h2>Anne Brandhøj designs chair that examines the contrast between raw and recyclable materials</h2>
+                <a href="#"></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Pharetra sodales arcu nibh amet condimentum lobortis convallis.<br>Euismod sit rutrum ultricies accumsan arcu.<br>Sed viverra pellentesque elementum lectus amet scelerisque.<br>Morbi integer bibendum semper nulla condimentum ac, fusce.<br>Nibh leo elementum a feugiat massa...</p>
+                <a href="#"></a>
+                    <button class="read-btn">READ</button>
+            </div>
+        </div>
+
+
+    <!--email subscription form-->
+        <div class="box">
+            <div class="subscription-form">
+                <form action="">
+                    <h2>Subscribe To Our Newsletters</h2>
+                    <p>Join our mailing list and be the first to know about upcoming collections, exhibitions, events and more!</p>
+                    <input type="text" placeholder="ENTER YOUR EMAIL">
+                    <button type="submit">Subscribe!</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    
+<!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <div class="footer-logo-col">
+                        <a href="creativ8.html"><img src="assets/logo.jpg" width="100px"></a>
+                        <p id="footer-text">Infinite space, infinite creativity</p>
+                        <p id="footer-logo">2022 BY CREATIV8</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">MARKETPLACE</a></li>
+                        <li><a href="#">EDITORIAL</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+        
+
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links"></div>
+                        <a class="social-icon" href="#"><ion-icon name="logo-facebook" target="_blank"></ion-icon></i></a>
+                        <a class="social-icon" href="#"><ion-icon name="logo-instagram" target="_blank"></ion-icon></i></a>
+                        <a class="social-icon" href="#"><ion-icon name="logo-twitter" target="_blank"></ion-icon></i></a>
+                        <a class="social-icon" href="#"><ion-icon name="logo-discord" target="_blank"></ion-icon></a>
+                        <a class="social-icon" href="#"><ion-icon name="logo-linkedin" target="_blank"></ion-icon></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
+
+

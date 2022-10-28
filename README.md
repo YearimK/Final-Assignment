@@ -1,5 +1,4 @@
-# Final-Assignment
-This is my final individual assignment
+# This is my final project
 
 ### _For the final project, I'll be making art/design marketplace and networking platform for_
 
@@ -9,20 +8,25 @@ This is my final individual assignment
 
 ---
 
+
 1. The organization admin:  A team of curators, developers, publishers, marketing specialists and coordinators and UX/UI designers.
 
-    As an admin, our team would like to offer a platform for artists, designers, curators and collectors to connect with one another in one space so that they can manage collection easier and build a community to exhibit and support quality artworks and products.
-
+    As an admin, our team wants to offer a platform where artists, designers, curators and collectors can connect so that it makes selling and buying artworks and products easier and manage collaborations for them.
 
 2. Designers/Artists
 
-    As a designer/artist, I would like to reach out to a wider audience and expand opportunities to collaborate with other designers, artists and curators beyond physical spaces.  
+    As a designer/artist, I want to reach out to a wider audience and expand opportunities to collaborate with other designers, artists and curators beyond physical spaces.  
 
 
 3. Collectors
 
-    As a collector, I would like to discover and explore new design projects, artworks and exhibition venues worldwide, buy products or make collections and stay up-to-date with my favourite designers/artists.
+    As a collector, I want to explore a wide range of collections and products, discover art venues or design festivals worldwide and stay in touch with my favourite designers/artists.
 
 
-[link to figma file] https://www.figma.com/file/7B7BaBZGglcnGT8BdpQg36/Untitled?node-id=0%3A1
+[link to figma file]("https://www.figma.com/file/7B7BaBZGglcnGT8BdpQg36/Untitled?node-id=0%3A1")
 
+
+# Creativ8 - Website description
+
+Creativ8 is a digital marketplace and networking platform where artists, designers, curators and collectors come to connect, exhibit and collect quality artworks and products.
+Our online marketplace and trusted network makes the process of selling, buying and curating easier and more professional. Through the online network space not only can creators find and hire experienced curators directly by setting up their profiles and sending applications but also collaborate with other individual creators, companies or organizations using our built-in communication tools. Creativ8 also offers a space for collectors and art enthusiasts to discover art & design venues and festivals worldwide, get access to articles written by leading curators and art professionals and stay in touch with their favourite creators.
